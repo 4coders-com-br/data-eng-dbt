@@ -24,13 +24,9 @@ source dbt-env/bin/activate
 
 ``` bash
 deactivate
-
 python -c "import sys; print(sys.executable)"
-
-
 pip install requests
 pip list
-
 ```
 
 - dbt core:
